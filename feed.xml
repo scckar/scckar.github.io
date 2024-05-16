@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-05-16T14:08:17+00:00</updated><id>/feed.xml</id><entry><title type="html">Bootstrap_代码</title><link href="/2024/05/16/bootstrap_%E4%BB%A3%E7%A0%81.html" rel="alternate" type="text/html" title="Bootstrap_代码" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E4%BB%A3%E7%A0%81</id><content type="html" xml:base="/2024/05/16/bootstrap_%E4%BB%A3%E7%A0%81.html"><![CDATA[<p><code>&lt;header&gt;</code> 作为内联元素被包围。</p>
+<p>如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签：</p>
+<pre>
+    &lt;article&gt;
+        &lt;h1&gt;Article Heading&lt;/h1&gt;
+    &lt;/article&gt;
+</pre>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[&lt;header&gt; 作为内联元素被包围。 如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签： &lt;article&gt; &lt;h1&gt;Article Heading&lt;/h1&gt; &lt;/article&gt;]]></summary></entry><entry><title type="html">Bootstrap_勋章</title><link href="/2024/05/16/bootstrap_%E5%8B%8B%E7%AB%A0.html" rel="alternate" type="text/html" title="Bootstrap_勋章" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E5%8B%8B%E7%AB%A0</id><content type="html" xml:base="/2024/05/16/bootstrap_%E5%8B%8B%E7%AB%A0.html"><![CDATA[<h4>胶囊式导航中的激活状态</h4>
+<ul class="nav nav-pills">
+    <li class="active">
+        <a href="#">首页
+            <span class="badge">42</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">简介</a>
+    </li>
+    <li>
+        <a href="#">消息
+            <span class="badge">3</span>
+        </a>
+    </li>
+</ul>
+<p><br /></p>
+<h4>列表导航中的激活状态</h4>
+<ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+    <li class="active">
+        <a href="#">
+            <span class="badge pull-right">42</span>首页</a>
+        </li>
+    <li>
+        <a href="#">简介</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="badge pull-right">3</span>消息
+        </a>
+    </li>
+</ul>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[胶囊式导航中的激活状态 首页 42 简介 消息 3 列表导航中的激活状态 42首页 简介 3消息]]></summary></entry><entry><title type="html">Bootstrap_图片</title><link href="/2024/05/16/bootstrap_%E5%9B%BE%E7%89%87.html" rel="alternate" type="text/html" title="Bootstrap_图片" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E5%9B%BE%E7%89%87</id><content type="html" xml:base="/2024/05/16/bootstrap_%E5%9B%BE%E7%89%87.html"><![CDATA[<p><img src="/wp-content/uploads/2014/06/download.png" class="img-rounded" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-circle" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-thumbnail" /></p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap_按钮</title><link href="/2024/05/16/bootstrap_%E6%8C%89%E9%92%AE.html" rel="alternate" type="text/html" title="Bootstrap_按钮" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E6%8C%89%E9%92%AE</id><content type="html" xml:base="/2024/05/16/bootstrap_%E6%8C%89%E9%92%AE.html"><![CDATA[<!-- 标准的按钮 -->
+<p><button type="button" class="btn btn-default">默认按钮</button>
+<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+<button type="button" class="btn btn-primary">原始按钮</button>
+<!-- 表示一个成功的或积极的动作 -->
+<button type="button" class="btn btn-success">成功按钮</button>
+<!-- 信息警告消息的上下文按钮 -->
+<button type="button" class="btn btn-info">信息按钮</button>
+<!-- 表示应谨慎采取的动作 -->
+<button type="button" class="btn btn-warning">警告按钮</button>
+<!-- 表示一个危险的或潜在的负面动作 -->
+<button type="button" class="btn btn-danger">危险按钮</button>
+<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+<button type="button" class="btn btn-link">链接按钮</button></p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[默认按钮 原始按钮 成功按钮 信息按钮 警告按钮 危险按钮 链接按钮]]></summary></entry><entry><title type="html">Bootstrap_排版_强调</title><link href="/2024/05/16/bootstrap_%E6%8E%92%E7%89%88_%E5%BC%BA%E8%B0%83.html" rel="alternate" type="text/html" title="Bootstrap_排版_强调" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E6%8E%92%E7%89%88_%E5%BC%BA%E8%B0%83</id><content type="html" xml:base="/2024/05/16/bootstrap_%E6%8E%92%E7%89%88_%E5%BC%BA%E8%B0%83.html"><![CDATA[<p><small>本行内容是在标签内</small><br />
+<strong>本行内容是在标签内</strong><br />
+<em>本行内容是在标签内，并呈现为斜体</em><br /></p>
+<p class="text-left">向左对齐文本</p>
+<p class="text-center">居中对齐文本</p>
+<p class="text-right">向右对齐文本</p>
+<p class="text-muted">本行内容是减弱的</p>
+<p class="text-primary">本行内容带有一个 primary class</p>
+<p class="text-success">本行内容带有一个 success class</p>
+<p class="text-info">本行内容带有一个 info class</p>
+<p class="text-warning">本行内容带有一个 warning class</p>
+<p class="text-danger">本行内容带有一个 danger class</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[本行内容是在标签内 本行内容是在标签内 本行内容是在标签内，并呈现为斜体 向左对齐文本 居中对齐文本 向右对齐文本 本行内容是减弱的 本行内容带有一个 primary class 本行内容带有一个 success class 本行内容带有一个 info class 本行内容带有一个 warning class 本行内容带有一个 danger class]]></summary></entry><entry><title type="html">Bootstrap_简介</title><link href="/2024/05/16/bootstrap_%E7%AE%80%E4%BB%8B.html" rel="alternate" type="text/html" title="Bootstrap_简介" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E7%AE%80%E4%BB%8B</id><content type="html" xml:base="/2024/05/16/bootstrap_%E7%AE%80%E4%BB%8B.html"><![CDATA[<div class="container">
+  <div class="jumbotron">
+    <h1>我的第一个 Bootstrap 页面</h1>
+    <p>重置窗口大小，查看响应式效果！</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+  </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[我的第一个 Bootstrap 页面 重置窗口大小，查看响应式效果！ Column 1 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 2 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 3 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！]]></summary></entry><entry><title type="html">Bootstrap_网络系统</title><link href="/2024/05/16/bootstrap_%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="Bootstrap_网络系统" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="/2024/05/16/bootstrap_%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F.html"><![CDATA[<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+            box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut. 
+            </p>
+        </div>
+ 
+        <div class="clearfix visible-xs"></div>
+ 
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim 
+            </p>
+        </div>
+    </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim]]></summary></entry><entry><title type="html">Bootstrap_警告</title><link href="/2024/05/16/bootstrap_%E8%AD%A6%E5%91%8A.html" rel="alternate" type="text/html" title="Bootstrap_警告" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E8%AD%A6%E5%91%8A</id><content type="html" xml:base="/2024/05/16/bootstrap_%E8%AD%A6%E5%91%8A.html"><![CDATA[<div class="alert alert-success">成功！很好地完成了提交。</div>
+<div class="alert alert-info">信息！请注意这个信息。</div>
+<div class="alert alert-warning">警告！请不要提交。</div>
+<div class="alert alert-danger">错误！请进行一些更改。</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[成功！很好地完成了提交。 信息！请注意这个信息。 警告！请不要提交。 错误！请进行一些更改。]]></summary></entry><entry><title type="html">Bootstrap_超大屏幕</title><link href="/2024/05/16/bootstrap_%E8%B6%85%E5%A4%A7%E5%B1%8F%E5%B9%95.html" rel="alternate" type="text/html" title="Bootstrap_超大屏幕" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E8%B6%85%E5%A4%A7%E5%B1%8F%E5%B9%95</id><content type="html" xml:base="/2024/05/16/bootstrap_%E8%B6%85%E5%A4%A7%E5%B1%8F%E5%B9%95.html"><![CDATA[<div class="container">
+   <div class="jumbotron">
+        <h1>欢迎登陆页面！</h1>
+        <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+        <p><a class="btn btn-primary btn-lg" role="button">
+        学习更多</a>
+      </p>
+   </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[欢迎登陆页面！ 这是一个超大屏幕（Jumbotron）的实例。 学习更多]]></summary></entry><entry><title type="html">Bootstrap_面包屑导航</title><link href="/2024/05/16/bootstrap_%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html" rel="alternate" type="text/html" title="Bootstrap_面包屑导航" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/bootstrap_%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA</id><content type="html" xml:base="/2024/05/16/bootstrap_%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html"><![CDATA[<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">2013</a></li>
+    <li class="active">十一月</li>
+</ul>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[Home 2013 十一月]]></summary></entry></feed>
